@@ -44,6 +44,5 @@ the software SoftMax Pro v7.0. exports after the data collection in our experime
 To be able to run the program, open the command line and type:
 
  `python MICDANA.py`
- 
- 
- 
+
+## Demo 
