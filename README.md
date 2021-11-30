@@ -45,4 +45,6 @@ To be able to run the program, open the command line and type:
 
  `python MICDANA.py`
 
-## Demo 
+## Demos 
+Several files have been attached in the `Example folder` to be used as a test of how to use the program.
+
