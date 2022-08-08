@@ -156,7 +156,7 @@ while True:
                     # Exit window when error arise:
                     print("Oops! Some input was incorrect. Please try again.")
                     window = tk.Tk()
-                    window.title("Welcome to MICDANA GUI !!!")
+                    window.title("Welcome to DANAMIC GUI !!!")
                     window.geometry('230x150+700+300')
                     window.configure(bg="white")
                     error_window = tk.StringVar(window)
@@ -175,7 +175,7 @@ while True:
             print("Your data is now cleaned and analysed")
 
             window = tk.Tk()
-            window.title("Welcome to MICDANA GUI !!!")
+            window.title("Welcome to DANAMIC GUI !!!")
             window.geometry('180x118+700+300')
             window.configure(bg="white")
             good_window = tk.StringVar(window)
@@ -190,7 +190,7 @@ while True:
     try:
         # Tkinter GUI:
         window = tk.Tk()
-        window.title("Welcome to MICDANA GUI !!!")
+        window.title("Welcome to DANAMIC GUI !!!")
         window.geometry('850x350+400+300')
         window.configure(bg="white")
         window.resizable(width=True, height=False)
@@ -201,7 +201,7 @@ while True:
         def openfile():
             global filename
             filename = tk.filedialog.askopenfilename(initialdir="root.filename",
-                                                     title="MICDANA Choose your file for you!!!",
+                                                     title="DANAMIC Choose your file for you!!!",
                                                      filetypes=(
                                                                ("Microsoft Excel Comma Separated Values File", "*.csv"),
                                                                ("Microsoft Excel Worksheet", "*.xlsx"),
@@ -232,7 +232,7 @@ while True:
         def savefiles():
             global savefile
             savefile = tk.filedialog.asksaveasfilename(initialdir="root.filename",
-                                                       title="MICDANA Save your file for you!!!",
+                                                       title="DANAMIC Save your file for you!!!",
                                                        filetypes=(
                                                                   ("Microsoft Excel Worksheet", "*.xlsx"),
                                                                   ("Microsoft Excel Comma Separated Values File", "*.csv"),
@@ -313,7 +313,7 @@ while True:
         # Exit window when error arise:
         print("Oops! Some input was incorrect. Please try again.")
         window = tk.Tk()
-        window.title("Welcome to MICDANA GUI !!!")
+        window.title("Welcome to DANAMIC GUI !!!")
         window.geometry('230x150+700+300')
         window.configure(bg="white")
         error_window = tk.StringVar(window)
