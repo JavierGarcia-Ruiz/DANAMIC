@@ -1,7 +1,7 @@
-# MICDANA (MIC DAta ANAlyser) 
+# DANAMIC (Data Analyzer of Minimum Inhibitory Concentrations) 
 
 ### Automate the data analysis of your MICs
-MICDANA is a custom GUI designed to automate the tedious process of cleaning, manipulation and analysis of data from an excel file that 
+DANAMIC is a custom GUI designed to automate the tedious process of cleaning, manipulation and analysis of data from an excel file that 
 the software SoftMax Pro v7.0. exports after the data collection in our experiment.
 
 <p align="center">
