@@ -43,7 +43,7 @@ the software SoftMax Pro v7.0. exports after the data collection in our experime
 ## Run the program
 To be able to run the program, open the command line and type:
 
- `python MICDANA.py`
+ `python DANAMIC.py`
 
 ## Demos 
 Several files have been attached in the `Example folder` to be used as a test of how to use the program.
