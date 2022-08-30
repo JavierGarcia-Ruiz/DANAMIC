@@ -28,7 +28,7 @@ the software SoftMax Pro v7.0. exports after the data collection in our experime
 
 3. After export the data to an excel file, it is necessary to convert the data to a ***.csv*** file to be able to read the information and to start running the script.
 
-## Requierements
+## Requirements
 #### Software requirements:
 > * SoftMax Pro v7.0  
 > * Python v3.8.2
