@@ -21,8 +21,8 @@ while True:
                     pd.set_option('display.max_rows', 400)
 
                     # 2.Number of plates:
-                    def number_of_plates_rows_drop(x):
-                        MIC_drop_rows = MIC_raw.drop(np.arange(0, 12 * x))
+                    def number_of_plates_rows_drop(ncolumns, nrows=12):
+                        MIC_drop_rows = MIC_raw.drop(np.arange(0, nrows * ncolumns))
                         return MIC_drop_rows
 
                     MIC = number_of_plates_rows_drop(
