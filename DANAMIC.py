@@ -109,11 +109,6 @@ while True:
                             for i, v in enumerate(dictionary.values()):
                                 plt.text(xlocs[i] - 0.25, v + 0.01, str(v))
 
-                            #To Save the figures in png format uncomment this section:
-                            if png == True:
-                                plt.savefig(png + b + p + ".png")
-                                plt.show()
-
                             # Dividing MIC_1 in an independent sheet, positioning the dataframes in the worksheet and plot the data.
                             position = 15 * (count - 1)
                             abx.to_excel(writer, sheet_name="bac_abx_plot", startrow=position)
