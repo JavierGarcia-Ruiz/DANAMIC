@@ -77,7 +77,7 @@ while True:
                     MIC_2.to_excel(writer, sheet_name="Single ABX vs All bacteria")
                     MIC_3.to_excel(writer, sheet_name="Single Bacteria vs All ABX")
 
-                    # 10. Plots and Std.dev bars:
+                    # 10. Plots:
                     MIC_1[["MeanValue", "Std.Dev.", "CV%"]] = MIC_1[["MeanValue", "Std.Dev.", "CV%"]].astype('float')
                     bacteria = MIC_1['Bacteria'].unique()
                     antibiotic = MIC_1['Sample'].unique()
