@@ -144,15 +144,15 @@ while True:
 
                 except:
                     # Exit window when error arise:
-                    print("Oops! Some input was incorrect. Please try again.")
+                    print("Some input was incorrect. Please try again.")
                     window = tk.Tk()
                     window.title("Welcome to DANAMIC GUI !!!")
-                    window.geometry('230x150+700+300')
+                    window.geometry('210x150+700+300')
                     window.configure(bg="white")
                     error_window = tk.StringVar(window)
                     msg = tk.Message(window, textvariable=error_window)
                     msg.config(bg='red', font=('times', 24, 'italic'))
-                    error_window.set("Oops! Some input was incorrect. Please try again.")
+                    error_window.set("Some input was incorrect. Please try again.")
                     msg.pack()
 
                     window.config(menu=menu)
@@ -300,15 +300,15 @@ while True:
             exit()
 
         # Exit window when error arise:
-        print("Oops! Some input was incorrect. Please try again.")
+        print("Some input was incorrect. Please try again.")
         window = tk.Tk()
         window.title("Welcome to DANAMIC GUI !!!")
-        window.geometry('230x150+700+300')
+        window.geometry('210x150+700+300')
         window.configure(bg="white")
         error_window = tk.StringVar(window)
         msg = tk.Message(window, textvariable=error_window)
         msg.config(bg='red', font=('times', 24, 'italic'))
-        error_window.set("Oops! Some input was incorrect. Please try again.")
+        error_window.set("Some input was incorrect. Please try again.")
         msg.pack()
         window.config(menu=menu)
         window.mainloop()
