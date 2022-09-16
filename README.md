@@ -1,5 +1,6 @@
-# DANAMIC (Data Analyzer of Minimum Inhibitory Concentrations)
 [![DOI](https://zenodo.org/badge/433453246.svg)](https://zenodo.org/badge/latestdoi/433453246)
+
+# DANAMIC (Data Analyzer of Minimum Inhibitory Concentrations)
 
 
 ### Automate the data analysis of your MICs
