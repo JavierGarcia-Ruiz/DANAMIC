@@ -1,4 +1,5 @@
-# DANAMIC (Data Analyzer of Minimum Inhibitory Concentrations) 
+# DANAMIC (Data Analyzer of Minimum Inhibitory Concentrations) [![DOI](https://zenodo.org/badge/433453246.svg)](https://zenodo.org/badge/latestdoi/433453246)
+
 
 ### Automate the data analysis of your MICs
 DANAMIC is a custom GUI designed to automate the tedious process of cleaning, manipulation and analysis of data from an excel file that 
